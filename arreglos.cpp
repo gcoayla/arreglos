@@ -18,11 +18,9 @@ int main(){
         cin>>lista[i];
     }
     ordenar(lista);
-
     for(int i=0;i<10;i++){
         cout<<lista[i];
         cout<<" ";
     }
-
     return 0;
 }
